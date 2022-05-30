@@ -1,0 +1,30 @@
+#menu {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    margin: 5%;
+}
+#menu>div{
+    border: 1px solid black;
+    height: auto;
+    width: 534px;
+    text-align: center;
+}
+img{
+    height: 450px;
+    width: 460px;
+
+}
+#navbar{
+    display: flex;
+    flex: end;
+    gap: 10px;
+    width: 100%;
+    padding: 2px;
+    font-size: 18px;
+    justify-content: right;
+}
+#coffee_count{
+    margin-right: 200px;
+}

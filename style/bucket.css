@@ -1,0 +1,11 @@
+#bucket{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    margin: 5%;
+    grid-gap:20px
+}
+img{
+    height: 390px;
+    width: 540px;
+}
